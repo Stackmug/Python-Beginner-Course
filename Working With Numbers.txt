@@ -1,0 +1,27 @@
+print(2)
+print(-2)
+print(3+4.5)
+print(3*4)
+print(3*(4+5))
+print(10 % 3) #modulous operation (10 mod 3) first number divicde to 2nd nuber = remainder
+
+my_num = 5
+print(str(my_num)) #str=convert number into string
+print(str(my_num) + " my favorite number")
+
+my_num = -5
+print(abs(my_num)) #abs means absolte value of a number
+print(pow(3, 2)) #pow raising power on a number
+print(max(4,6)) #max gives you the bigger number on the selection
+print(min(4,6)) #min gives you the smaller number on the selection
+print(round(3.7)) #rounding off numbers
+
+
+from math import * #math module imports more mathematical functions
+
+my_num = -5
+print(floor(3.7)) #floor command grabs the smallest number and displays it
+print(ceil(3.7)) #ceil command grabs the biggest number and displays it
+print(sqrt(36))
+
+

@@ -1,0 +1,5 @@
+INPUT and DISPLAY NAME
+
+name = input("Enter Your Name: ")
+age = input("Enter Your Age: ")
+print("Hello " + name +"! " + "You are " + age +" years old and you're gay" )

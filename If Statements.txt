@@ -1,0 +1,27 @@
+#we can use the or or and operator depending on the condition
+
+is_male = False #boolean variable set to true
+is_tall = False
+
+if is_male or is_tall: 
+    print ("You are a male or tall or both")
+
+else:
+    print ("You are neither male or tall")
+
+
+
+is_male = False #boolean variable set to true
+is_tall = False
+
+if is_male and is_tall: 
+    print ("You are a tall male")
+
+elif is_male and not(is_tall): #not negates the condition
+    print ("You are a short male")
+
+elif not (is_male) and not(is_tall): #not negates the condition
+    print ("You are a short male")
+
+else:
+    print ("You are not a male and not tall")

@@ -1,0 +1,19 @@
+print("Tewet\nBading")
+print("Tewet Bading?")
+print("Tewet\Bading")
+
+phrase = "Tewet Dorobo"
+print(phrase + " is gay.")
+
+print(phrase.lower())
+print(phrase.upper())
+print(phrase.islower())
+print(phrase.isupper())
+
+print(len(phrase))
+
+print(phrase[1])
+
+print(phrase.index("T"))
+print(phrase.index("Tewet"))
+print(phrase.replace("Tewet", "Bading"))

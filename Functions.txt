@@ -1,0 +1,20 @@
+#function is a collection of code which performs specific tasks
+#functions needed to be called out 
+
+def say_hi(): #def is a keyword for using functions, all the code after this lines will be inside the function,  indent 
+    print("Hello User")
+
+print("Top")
+say_hi()
+print("Bottom")
+
+#codes are being executed per line order
+#parameter is a piece of information that we give to a function
+
+
+def say_hi(name, str(age)):
+    print("Hello " + name + ", you are " + age)
+
+say_hi("Tewet", 35)
+say_hi("Bulaw", 70)
+

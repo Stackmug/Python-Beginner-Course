@@ -1,0 +1,12 @@
+#return is used for getting values back after code is executed
+
+def cube(num):
+    return num*num*num #after using the return you're out of the function
+
+print(cube(3))
+
+def cube(num):
+    return num*num*num 
+
+result = cube(4)
+print(result)

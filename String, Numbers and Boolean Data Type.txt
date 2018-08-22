@@ -1,0 +1,13 @@
+character_name = "Tewet"
+character_age = 30
+is_Male = False
+
+print("There once was a man named " + character_name + ", ")
+print("He was " + character_age +"years old")
+
+character_name = "Zhaldy"
+character_age = 99
+is_Male = False
+
+print("There once was a man named " + character_name + ", ")
+print("He was " + character_age +"years old")

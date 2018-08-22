@@ -1,0 +1,24 @@
+lucky_numbers = [4, 8, 15, 16, 24, 42]
+friends = ["Tewet", "Zhaldy", "Cj", "Wet", "Harold"] #can be printed via index from 0....
+friends.extend(lucky_numbers) #extend adds 2 list together
+friends.append("ChubbyCheeks") #add an item at the end of the lsit
+friends.insert(1, "Dragon") #insert an item in to the list based on the index number
+friends.remove("Harold")
+friends.clear()
+friends.pop() #pop removes the last element on the list
+friends.sort() #sorts the list in an alphabetical order
+
+lucky_numbers.sort()
+print(lucky_numbers)
+
+lucky_numbers.reverse()
+print(lucky_numbers)
+
+friends2 = friends.copy #copying friends list and then creating another list with the same content
+
+print(friends.index("Tewet") #use index to figure out if the element is in the list
+
+friends = ["Tewet", "Zhaldy", "Cj", "Wet", "Harold"]
+print(friends.count("Zhaldy"))
+
+
